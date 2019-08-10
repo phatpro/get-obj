@@ -1,6 +1,6 @@
 {
 	"name": "get-obj",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Filter and replace key/value object to new object",
 	"main": "index.js",
 	"scripts": {

@@ -28,11 +28,15 @@ var newObj = getObj(exampleObj, (key, value) => key.indexOf('title') === 0)
 // { title: 'phatpro' }
 
 // Filter and replace key
-var newObj = getObj(exampleObj, (key, value) => key.indexOf('title') === 0 && 'hiThere')
+var newObj = getObj(exampleObj, (key, value) =>
+    key.indexOf('title') === 0 && 'hiThere'
+)
 // { hiThere: 'phatpro' }
 
 // Filter and replace key/value
-var newObj = getObj(exampleObj, (key, value) => key.indexOf('title') === 0 && ['hiThere', 'hi'])
+var newObj = getObj(exampleObj, (key, value) =>
+    key.indexOf('title') === 0 && ['hiThere', 'hi']
+)
 // { hiThere: 'hi' }
 ```
 
