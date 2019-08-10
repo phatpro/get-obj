@@ -2,7 +2,7 @@
  * - Filter and replace key/value object to new object
  *
  * @param {object} obj Origin object
- * @param {(key: string, value: any, object: any)} predicate
+ * @param {(key: string, value: any, object: any): boolean | string | Array => {}} predicate
  * @returns
  */
 function getObj(obj, predicate) {
